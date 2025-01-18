@@ -1,16 +1,15 @@
-# employee_data
+# Employee Management App
 
-A new Flutter project.
+A Flutter application that fetches employee data from an API, caches it locally, and displays it in a user-friendly interface with advanced UI and animations.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Fetch Employee Data**: Fetches employee data from the [DummyJSON API](https://dummyjson.com/users).
+- **Caching**: Caches employee data locally using `shared_preferences` for offline access.
+- **Advanced UI**:
+  - Custom gradient AppBar.
+  - Employee list items with profile images, names, and usernames.
+  - Collapsing header with Hero animations on the detail screen.
+- **Error Handling**: handles API errors and displays cached data if available.
